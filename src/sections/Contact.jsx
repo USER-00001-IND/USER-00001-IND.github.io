@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { motion } from "framer-motion";
 import { Github, Mail, MapPin, Send } from "lucide-react";
 import SectionHeading from "../components/SectionHeading.jsx";
@@ -8,26 +7,10 @@ const inputClass =
   "rounded-xl border border-white/10 bg-black/25 px-4 py-3 text-sm text-white outline-none transition placeholder:text-slate-600 focus:border-cyan-300/55 focus:bg-black/35";
 
 export default function Contact() {
-  const [form, setForm] = useState({ name: "", email: "", message: "" });
-
-  function updateField(event) {
-    const { name, value } = event.target;
-    setForm((current) => ({ ...current, [name]: value }));
-  }
-
-  function handleSubmit(event) {
-    event.preventDefault();
-    const subject = encodeURIComponent(`Portfolio message from ${form.name || "visitor"}`);
-    const body = encodeURIComponent(
-      `Name: ${form.name}\nEmail: ${form.email}\n\nMessage:\n${form.message}`
-    );
-    window.location.href = `mailto:${profile.email}?subject=${subject}&body=${body}`;
-  }
-
   return (
     <section id="contact" className="section-shell">
       <div className="mx-auto max-w-7xl">
-        <SectionHeading eyebrow="Contact" title="Start a conversation or review the code trail." command="mailto --compose recruiter-note" />
+        <SectionHeading eyebrow="Contact" title="Start a conversation or review the code trail." command="send --message portfolio" />
         <div className="grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
           <motion.div initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.35 }} transition={{ duration: 0.45, ease: "easeOut" }} className="premium-card p-5">
             <h3 className="text-xl font-bold text-white">Contact details</h3>
@@ -51,31 +34,37 @@ export default function Contact() {
             viewport={{ once: true, amount: 0.35 }}
             transition={{ duration: 0.45, ease: "easeOut", delay: 0.05 }}
             className="premium-card p-5 sm:p-6"
-            onSubmit={handleSubmit}
+            action={`https://formsubmit.co/${profile.email}`}
+            method="POST"
           >
+            <input type="hidden" name="_subject" value="New portfolio message" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="text" name="_honey" className="hidden" tabIndex="-1" autoComplete="off" />
+
             <div className="mb-5 flex items-center justify-between gap-4">
               <div>
                 <h3 className="text-xl font-bold text-white">Send a message</h3>
-                <p className="mt-1 font-mono text-xs text-slate-500">$ opens your email app</p>
+                <p className="mt-1 font-mono text-xs text-slate-500">$ submit --secure-form</p>
               </div>
-              <div className="hidden rounded-full border border-emerald-300/20 bg-emerald-300/[0.08] px-3 py-1 font-mono text-xs text-emerald-200 sm:block">mailto</div>
+              <div className="hidden rounded-full border border-emerald-300/20 bg-emerald-300/[0.08] px-3 py-1 font-mono text-xs text-emerald-200 sm:block">ready</div>
             </div>
             <div className="grid gap-4 sm:grid-cols-2">
               <label className="grid gap-2 font-mono text-xs text-slate-400">
                 Name
-                <input name="name" value={form.name} onChange={updateField} className={inputClass} placeholder="Your name" required />
+                <input name="name" className={inputClass} placeholder="Your name" required />
               </label>
               <label className="grid gap-2 font-mono text-xs text-slate-400">
                 Email
-                <input name="email" value={form.email} onChange={updateField} type="email" className={inputClass} placeholder="you@example.com" required />
+                <input name="email" type="email" className={inputClass} placeholder="you@example.com" required />
               </label>
             </div>
             <label className="mt-4 grid gap-2 font-mono text-xs text-slate-400">
               Message
-              <textarea name="message" value={form.message} onChange={updateField} rows="6" className={`${inputClass} resize-none`} placeholder="Write a short message..." required />
+              <textarea name="message" rows="6" className={`${inputClass} resize-none`} placeholder="Write a short message..." required />
             </label>
             <button type="submit" className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-cyan-300/35 bg-cyan-300 px-5 py-3 font-mono text-sm font-bold text-slate-950 shadow-glow transition hover:-translate-y-1 hover:bg-cyan-200 sm:w-auto">
-              <Send size={18} /> Open Email Draft
+              <Send size={18} /> Send Message
             </button>
           </motion.form>
         </div>
