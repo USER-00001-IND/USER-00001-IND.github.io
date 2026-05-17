@@ -34,7 +34,7 @@ export default function Contact() {
             viewport={{ once: true, amount: 0.35 }}
             transition={{ duration: 0.45, ease: "easeOut", delay: 0.05 }}
             className="premium-card p-5 sm:p-6"
-            action={`https://formsubmit.co/${profile.email}`}
+            action={`https://formsubmit.co/${profile.contactFormEmail}`}
             method="POST"
           >
             <input type="hidden" name="_subject" value="New portfolio message" />

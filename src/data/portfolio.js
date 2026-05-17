@@ -12,6 +12,7 @@ export const profile = {
   role: "Computer Science Student",
   focus: "Machine Learning and Web Development",
   email: "rjmhhzry77@gmail.com",
+  contactFormEmail: "rjmhhzry77@gmail.com",
   location: "Goalpara, Assam, India",
   githubUsername: "USER-00001-IND",
   githubUrl: "https://github.com/USER-00001-IND",
