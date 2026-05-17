@@ -63,25 +63,6 @@ export const projects = [
   },
 ];
 
-export const skills = [
-  "Python",
-  "JavaScript",
-  "React",
-  "HTML",
-  "CSS",
-  "Tailwind CSS",
-  "Node.js",
-  "Express.js",
-  "MongoDB",
-  "Pandas",
-  "NumPy",
-  "Scikit-learn",
-  "TensorFlow/Keras",
-  "Git",
-  "GitHub",
-  "VS Code",
-];
-
 export const skillGroups = [
   {
     title: "Programming",
