@@ -11,15 +11,18 @@ import Contact from "./sections/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 
 export default function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(() => localStorage.getItem("theme") !== "light");
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", darkMode);
+    document.documentElement.classList.toggle("theme-dark", darkMode);
+    document.documentElement.classList.toggle("theme-light", !darkMode);
+    localStorage.setItem("theme", darkMode ? "dark" : "light");
   }, [darkMode]);
 
   return (
     <AnimatePresence>
-      <div className="min-h-screen overflow-hidden bg-[#050812] text-white transition-colors duration-300 dark:bg-[#050812]">
+      <div className="app-shell min-h-screen overflow-hidden text-white transition-colors duration-500">
         <Background />
         <Navbar darkMode={darkMode} onToggleDark={() => setDarkMode((value) => !value)} />
         <main className="relative z-10">

@@ -3,17 +3,19 @@ import { ArrowDown, Download, Github, Mail, MapPin, Sparkles, Terminal } from "l
 import { profile } from "../data/portfolio.js";
 import { useTypingEffect } from "../utils/useTypingEffect.js";
 
+const typingLines = [
+  "training ML models",
+  "building responsive web apps",
+  "researching practical AI ideas",
+];
+
 export default function Hero() {
-  const typedText = useTypingEffect([
-    "training ML models",
-    "building responsive web apps",
-    "researching practical AI ideas",
-  ]);
+  const typedText = useTypingEffect(typingLines);
 
   return (
     <section id="home" className="px-4 pt-24 sm:px-6 lg:px-8">
       <div className="mx-auto grid min-h-[calc(100vh-5rem)] max-w-7xl items-center gap-8 py-10 lg:grid-cols-[1.08fr_0.92fr]">
-        <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.65 }}>
+        <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.55, ease: "easeOut" }}>
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-emerald-300/25 bg-emerald-300/[0.08] px-4 py-2 font-mono text-xs text-emerald-200 shadow-green">
             <Sparkles size={15} />
             available for internships and collaboration
@@ -38,7 +40,7 @@ export default function Hero() {
           </div>
         </motion.div>
 
-        <motion.div initial={{ opacity: 0, x: 28 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.7, delay: 0.15 }}>
+        <motion.div initial={{ opacity: 0, x: 18 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.58, ease: "easeOut", delay: 0.12 }}>
           <div className="premium-card relative overflow-hidden p-5 sm:p-6">
             <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-cyan-300/70 to-transparent" />
             <div className="absolute -right-16 -top-16 h-44 w-44 rounded-full bg-cyan-300/10 blur-3xl" />

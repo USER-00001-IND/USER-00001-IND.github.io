@@ -61,7 +61,7 @@ rect(0, 0, page.width, page.height, "1 1 1");
 rect(0, 758, page.width, 34, "0.02 0.06 0.12");
 text(profile.name, page.margin, 724, 24, "F2", "0.02 0.06 0.12");
 text(`${profile.role} | ${profile.focus}`, page.margin, 704, 11, "F1", "0.02 0.46 0.38");
-text(`${profile.email} | ${profile.phone} | ${profile.location}`, page.margin, 687, 9.5, "F1", "0.22 0.27 0.36");
+text(`${profile.email} | ${profile.location}`, page.margin, 687, 9.5, "F1", "0.22 0.27 0.36");
 text(profile.githubUrl, page.margin, 672, 9.5, "F1", "0.25 0.22 0.62");
 line(page.margin, 660, page.width - page.margin, "0.18 0.75 0.55", 1.2);
 y = 637;

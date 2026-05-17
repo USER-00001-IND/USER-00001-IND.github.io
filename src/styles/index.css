@@ -6,12 +6,13 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 
 body {
   margin: 0;
   min-width: 320px;
-  background: #050812;
+  background: var(--page-bg);
 }
 
 ::selection {
@@ -26,14 +27,116 @@ body {
 
   .premium-card {
     border-radius: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    background: rgba(11, 18, 32, 0.86);
-    box-shadow: 0 20px 70px rgba(0, 0, 0, 0.32);
+    border: 1px solid var(--card-border);
+    background: var(--card-bg);
+    box-shadow: 0 20px 70px var(--card-shadow);
     backdrop-filter: blur(12px);
+    transition: transform 220ms ease, border-color 220ms ease, background-color 300ms ease, box-shadow 300ms ease;
   }
 
   .accent-border {
     @apply border-white/10 hover:border-cyan-300/35;
+  }
+}
+
+:root,
+.theme-dark {
+  --page-bg: #050812;
+  --card-bg: rgba(11, 18, 32, 0.86);
+  --card-border: rgba(255, 255, 255, 0.1);
+  --card-shadow: rgba(0, 0, 0, 0.32);
+  --grid-line-a: rgba(34, 211, 238, 0.07);
+  --grid-line-b: rgba(52, 211, 153, 0.055);
+  --fade-start: #050812;
+  color-scheme: dark;
+}
+
+.theme-light {
+  --page-bg: #f7fbff;
+  --card-bg: rgba(255, 255, 255, 0.84);
+  --card-border: rgba(15, 23, 42, 0.11);
+  --card-shadow: rgba(15, 23, 42, 0.12);
+  --grid-line-a: rgba(8, 145, 178, 0.12);
+  --grid-line-b: rgba(16, 185, 129, 0.09);
+  --fade-start: #f7fbff;
+  color-scheme: light;
+}
+
+.app-shell {
+  background: var(--page-bg);
+}
+
+.theme-bg {
+  background:
+    radial-gradient(circle at 16% 10%, rgba(34, 211, 238, 0.16), transparent 28%),
+    radial-gradient(circle at 86% 16%, rgba(168, 85, 247, 0.14), transparent 30%),
+    var(--page-bg);
+}
+
+.theme-grid {
+  background-image:
+    linear-gradient(var(--grid-line-a) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line-b) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+.theme-fade {
+  background: linear-gradient(to top, var(--fade-start), color-mix(in srgb, var(--fade-start) 70%, transparent), transparent);
+}
+
+.theme-light .bg-\[\#050812\]\/80,
+.theme-light .bg-\[\#050812\]\/88,
+.theme-light .bg-\[\#050812\]\/96 {
+  background-color: rgba(255, 255, 255, 0.84) !important;
+}
+
+.theme-light .text-white,
+.theme-light .text-slate-200,
+.theme-light .text-slate-300 {
+  color: #0f172a !important;
+}
+
+.theme-light .text-slate-400,
+.theme-light .text-slate-500 {
+  color: #475569 !important;
+}
+
+.theme-light .text-cyan-100,
+.theme-light .text-violet-100 {
+  color: #164e63 !important;
+}
+
+.theme-light .border-white\/10,
+.theme-light .border-white\/\[0\.12\] {
+  border-color: rgba(15, 23, 42, 0.12) !important;
+}
+
+.theme-light .bg-white\/5,
+.theme-light .bg-white\/\[0\.03\],
+.theme-light .bg-white\/\[0\.035\],
+.theme-light .bg-white\/\[0\.04\],
+.theme-light .bg-white\/\[0\.045\],
+.theme-light .bg-white\/\[0\.055\],
+.theme-light .bg-white\/\[0\.07\],
+.theme-light .bg-black\/25,
+.theme-light .bg-black\/30 {
+  background-color: rgba(255, 255, 255, 0.68) !important;
+}
+
+.theme-light input,
+.theme-light textarea {
+  background-color: rgba(255, 255, 255, 0.86) !important;
+  color: #0f172a !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
   }
 }
 
