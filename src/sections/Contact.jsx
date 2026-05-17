@@ -34,13 +34,10 @@ export default function Contact() {
             viewport={{ once: true, amount: 0.35 }}
             transition={{ duration: 0.45, ease: "easeOut", delay: 0.05 }}
             className="premium-card p-5 sm:p-6"
-            action={`https://formsubmit.co/${profile.contactFormEmail}`}
+            action={profile.contactFormAction}
             method="POST"
           >
-            <input type="hidden" name="_subject" value="New portfolio message" />
-            <input type="hidden" name="_template" value="table" />
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="text" name="_honey" className="hidden" tabIndex="-1" autoComplete="off" />
+            <input type="hidden" name="_subject" value={`Portfolio message for ${profile.name}`} />
 
             <div className="mb-5 flex items-center justify-between gap-4">
               <div>
@@ -56,7 +53,7 @@ export default function Contact() {
               </label>
               <label className="grid gap-2 font-mono text-xs text-slate-400">
                 Email
-                <input name="email" type="email" className={inputClass} placeholder="you@example.com" required />
+                <input name="email" type="email" autoComplete="email" className={inputClass} placeholder="you@example.com" required />
               </label>
             </div>
             <label className="mt-4 grid gap-2 font-mono text-xs text-slate-400">
