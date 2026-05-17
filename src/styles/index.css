@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #050812;
+}
+
+::selection {
+  background: rgba(16, 185, 129, 0.35);
+  color: inherit;
+}
+
+@layer components {
+  .section-shell {
+    @apply px-4 py-16 sm:px-6 sm:py-20 lg:px-8;
+  }
+
+  .premium-card {
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(11, 18, 32, 0.86);
+    box-shadow: 0 20px 70px rgba(0, 0, 0, 0.32);
+    backdrop-filter: blur(12px);
+  }
+
+  .accent-border {
+    @apply border-white/10 hover:border-cyan-300/35;
+  }
+}
+
+@layer base {
+  a,
+  button,
+  input,
+  textarea {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
