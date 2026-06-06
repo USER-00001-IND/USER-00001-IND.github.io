@@ -7,7 +7,7 @@ export default function About() {
   return (
     <section id="about" className="section-shell">
       <div className="mx-auto max-w-7xl">
-        <SectionHeading eyebrow="About" title="A builder learning across code, models, and research." command="cat about.md" />
+        <SectionHeading eyebrow="About" title="A student developer building with code, models, and research." command="cat about.md" />
         <div className="grid gap-6 lg:grid-cols-[1fr_0.9fr]">
           <motion.div initial={{ opacity: 0, y: 18 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="premium-card p-6">
             <p className="text-lg leading-8 text-slate-200">{profile.summary}</p>
@@ -15,7 +15,7 @@ export default function About() {
               {[
                 ["Focus", profile.focus, Cpu],
                 ["Location", profile.location, MapPin],
-                ["Status", "B.Sc CS pursuing", GraduationCap],
+                ["Status", "B.Sc Computer Science", GraduationCap],
               ].map(([label, value, Icon]) => (
                 <div key={label} className="rounded-xl border border-white/10 bg-white/[0.035] p-4">
                   <Icon className="mb-3 text-cyan-300" size={20} />

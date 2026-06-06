@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Rajmohan portfolio icon">
+  <rect width="512" height="512" rx="72" fill="#050812"/>
+  <path d="M112 338V164h82c43 0 70 23 70 61 0 25-12 44-34 54l49 59h-50l-43-53h-40v53h-34Zm34-84h47c22 0 35-11 35-30 0-18-13-29-35-29h-47v59Z" fill="#22d3ee"/>
+  <path d="M302 338V164h34v73h81v-73h34v174h-34v-77h-81v77h-34Z" fill="#34d399"/>
+</svg>

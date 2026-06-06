@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Brain, Braces, Code2, Database, Wrench } from "lucide-react";
 import SectionHeading from "../components/SectionHeading.jsx";
 import { skillGroups } from "../data/portfolio.js";
+import { useCachedPortfolioData } from "../hooks/useCachedPortfolioData.js";
 
 const icons = {
   Programming: Braces,
@@ -12,12 +13,14 @@ const icons = {
 };
 
 export default function Skills() {
+  const cachedSkillGroups = useCachedPortfolioData("portfolio_skills", skillGroups);
+
   return (
     <section id="skills" className="section-shell">
       <div className="mx-auto max-w-7xl">
         <SectionHeading eyebrow="Skills" title="Tools for shipping ideas into working systems." command="ls ./skills --grouped" />
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-          {skillGroups.map((group, index) => {
+          {cachedSkillGroups.map((group, index) => {
             const Icon = icons[group.title];
             return (
               <motion.div

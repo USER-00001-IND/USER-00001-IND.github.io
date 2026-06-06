@@ -2,11 +2,13 @@ import { motion } from "framer-motion";
 import { ArrowDown, Download, Github, Mail, MapPin, Sparkles, Terminal } from "lucide-react";
 import { profile } from "../data/portfolio.js";
 import { useTypingEffect } from "../utils/useTypingEffect.js";
+import { trackEvent } from "../utils/analytics.js";
 
 const typingLines = [
-  "training ML models",
-  "building responsive web apps",
-  "researching practical AI ideas",
+  "training machine learning models",
+  "building MERN stack applications",
+  "researching practical AI systems",
+  "shipping real-world student projects",
 ];
 
 export default function Hero() {
@@ -18,20 +20,20 @@ export default function Hero() {
         <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.55, ease: "easeOut" }}>
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-emerald-300/25 bg-emerald-300/[0.08] px-4 py-2 font-mono text-xs text-emerald-200 shadow-green">
             <Sparkles size={15} />
-            available for internships and collaboration
+            machine learning | full stack | AI research
           </div>
           <h1 className="max-w-4xl text-4xl font-black leading-[0.98] tracking-tight text-white sm:text-6xl lg:text-7xl">
             {profile.name}
           </h1>
           <p className="mt-5 max-w-2xl text-xl font-semibold text-cyan-100">
-            {profile.role} building practical systems across machine learning and the web.
+            Computer Science student building practical systems across machine learning, full stack web development, and AI research.
           </p>
           <p className="mt-4 max-w-2xl text-base leading-8 text-slate-300 sm:text-lg">
-            Focused on <span className="text-violet-300">{profile.focus}</span>, with a strong interest in turning technical learning into useful real-world projects.
+            Focused on <span className="text-violet-300">{profile.focus}</span>, with a clear interest in turning technical learning into useful software.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <a href="/resume.pdf" download className="inline-flex items-center justify-center gap-2 rounded-xl border border-emerald-300/40 bg-emerald-400 px-5 py-3 font-mono text-sm font-bold text-slate-950 shadow-green transition hover:-translate-y-1 hover:bg-emerald-300">
+            <a href="/resume.pdf" download onClick={() => trackEvent("resume_download", { source: "hero" })} className="inline-flex items-center justify-center gap-2 rounded-xl border border-emerald-300/40 bg-emerald-400 px-5 py-3 font-mono text-sm font-bold text-slate-950 shadow-green transition hover:-translate-y-1 hover:bg-emerald-300">
               <Download size={18} /> Download Resume
             </a>
             <a href={profile.githubUrl} target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/[0.12] bg-white/[0.07] px-5 py-3 font-mono text-sm font-semibold text-white transition hover:-translate-y-1 hover:border-cyan-300/40 hover:bg-cyan-300/10">
@@ -57,13 +59,17 @@ export default function Hero() {
                 <img
                   src={profile.photoUrl}
                   alt={`${profile.name} profile photo`}
+                  width="144"
+                  height="144"
+                  loading="lazy"
+                  decoding="async"
                   className="h-full w-full object-cover object-top"
                 />
               </div>
               <div className="text-center sm:text-left">
                 <p className="font-mono text-xs uppercase tracking-[0.22em] text-emerald-300">profile</p>
                 <h2 className="mt-2 text-2xl font-bold text-white">{profile.name}</h2>
-                <p className="mt-2 text-sm leading-6 text-slate-300">{profile.role}</p>
+                <p className="mt-2 text-sm leading-6 text-slate-300">Machine Learning | Full Stack Development</p>
               </div>
             </div>
             <div className="rounded-xl border border-white/10 bg-black/30 p-4 font-mono text-sm">
