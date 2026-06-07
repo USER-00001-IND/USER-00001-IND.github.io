@@ -15,67 +15,89 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
 6 0 obj
-<< /Length 5120 >>
+<< /Length 7311 >>
 stream
 1 1 1 rg 0 0 612 792 re f
-0.02 0.06 0.12 rg 0 758 612 34 re f
-BT /F2 24 Tf 0.02 0.06 0.12 rg 54 724 Td (Rajmohan Hazowary) Tj ET
-BT /F1 11 Tf 0.02 0.46 0.38 rg 54 704 Td (Computer Science Student | Machine Learning and Web Development) Tj ET
-BT /F1 9.5 Tf 0.22 0.27 0.36 rg 54 687 Td (rjmhhzry77@gmail.com | Goalpara, Assam, India) Tj ET
-BT /F1 9.5 Tf 0.25 0.22 0.62 rg 54 672 Td (https://github.com/USER-00001-IND) Tj ET
-0.18 0.75 0.55 RG 1.2 w 54 660 m 558 660 l S
-BT /F2 10 Tf 0.02 0.46 0.38 rg 54 617 Td (PROFILE) Tj ET
-0.78 0.86 0.90 RG 0.75 w 54 611 m 558 611 l S
-BT /F1 9.8 Tf 0.18 0.22 0.31 rg 54 597 Td (Computer Science student pursuing B.Sc with interests in machine learning, web development, and) Tj ET
-BT /F1 9.8 Tf 0.18 0.22 0.31 rg 54 583 Td (technology research. Passionate about learning new technologies, improving communication skills, and) Tj ET
-BT /F1 9.8 Tf 0.18 0.22 0.31 rg 54 569 Td (applying technical knowledge to real world problems.) Tj ET
-BT /F2 10 Tf 0.02 0.46 0.38 rg 54 535 Td (EDUCATION) Tj ET
-0.78 0.86 0.90 RG 0.75 w 54 529 m 558 529 l S
-BT /F2 10.2 Tf 0.08 0.11 0.18 rg 54 515 Td (Bachelor of Science, Computer Science) Tj ET
-BT /F1 9.2 Tf 0.25 0.22 0.62 rg 430 515 Td (2024 to 2027 | Pursuing) Tj ET
-BT /F1 9.4 Tf 0.25 0.30 0.38 rg 54 502 Td (Pandit Deendayal Upadhyaya Adarsha Mahavidyalaya, Amjonga) Tj ET
-BT /F2 10.2 Tf 0.08 0.11 0.18 rg 54 486 Td (Higher Secondary) Tj ET
-BT /F1 9.2 Tf 0.25 0.22 0.62 rg 430 486 Td (2021 to 2024 | Completed) Tj ET
-BT /F1 9.4 Tf 0.25 0.30 0.38 rg 54 473 Td (Pandit Deendayal Upadhyaya Adarsha Mahavidyalaya, Amjonga) Tj ET
-BT /F2 10 Tf 0.02 0.46 0.38 rg 54 437 Td (TECHNICAL SKILLS) Tj ET
-0.78 0.86 0.90 RG 0.75 w 54 431 m 558 431 l S
-BT /F2 9.6 Tf 0.08 0.11 0.18 rg 54 417 Td (Programming:) Tj ET
-BT /F1 9.4 Tf 0.20 0.24 0.32 rg 156 417 Td (Python, JavaScript) Tj ET
-BT /F2 9.6 Tf 0.08 0.11 0.18 rg 54 403 Td (Frontend:) Tj ET
-BT /F1 9.4 Tf 0.20 0.24 0.32 rg 156 403 Td (React, HTML, CSS, Tailwind CSS) Tj ET
-BT /F2 9.6 Tf 0.08 0.11 0.18 rg 54 389 Td (Backend:) Tj ET
-BT /F1 9.4 Tf 0.20 0.24 0.32 rg 156 389 Td (Node.js, Express.js, MongoDB) Tj ET
-BT /F2 9.6 Tf 0.08 0.11 0.18 rg 54 375 Td (Machine Learning:) Tj ET
-BT /F1 9.4 Tf 0.20 0.24 0.32 rg 156 375 Td (Pandas, NumPy, Scikit-learn, TensorFlow/Keras) Tj ET
-BT /F2 9.6 Tf 0.08 0.11 0.18 rg 54 361 Td (Tools:) Tj ET
-BT /F1 9.4 Tf 0.20 0.24 0.32 rg 156 361 Td (Git, GitHub, VS Code) Tj ET
-BT /F2 10 Tf 0.02 0.46 0.38 rg 54 327 Td (PROJECTS) Tj ET
-0.78 0.86 0.90 RG 0.75 w 54 321 m 558 321 l S
-BT /F2 10 Tf 0.08 0.11 0.18 rg 54 307 Td (Artificial Neural Network ANN Project) Tj ET
-BT /F1 8.8 Tf 0.02 0.46 0.38 rg 438 307 Td (ML Research) Tj ET
-BT /F1 9.1 Tf 0.20 0.24 0.32 rg 54 294 Td (ANN based machine learning project focused on identification of Assamese numbers using neural) Tj ET
-BT /F1 9.1 Tf 0.20 0.24 0.32 rg 54 282 Td (network models. Included data preparation, model training, prediction, and analysis.) Tj ET
-BT /F1 8.7 Tf 0.25 0.22 0.62 rg 54 270 Td (Tech: Python, TensorFlow/Keras, Machine Learning, Neural Networks) Tj ET
-BT /F1 8.5 Tf 0.25 0.22 0.62 rg 54 258 Td (GitHub: https://github.com/USER-00001-IND/Assamese-Number-recognition-.git) Tj ET
-BT /F2 10 Tf 0.08 0.11 0.18 rg 54 242 Td (Employee Salary Prediction ML Project) Tj ET
-BT /F1 8.8 Tf 0.02 0.46 0.38 rg 438 242 Td (Model Complete) Tj ET
-BT /F1 9.1 Tf 0.20 0.24 0.32 rg 54 229 Td (Machine learning regression project that predicts average salary for data related job roles using) Tj ET
-BT /F1 9.1 Tf 0.20 0.24 0.32 rg 54 217 Td (cleaned and preprocessed real world data. Used Linear Regression, Decision Tree, and Random Forest.) Tj ET
-BT /F1 8.7 Tf 0.25 0.22 0.62 rg 54 205 Td (Tech: Python, Pandas, NumPy, Scikit-learn, Machine Learning) Tj ET
-BT /F1 8.5 Tf 0.25 0.22 0.62 rg 54 193 Td (GitHub: https://github.com/USER-00001-IND/Employee-Salary-prediction-.git) Tj ET
-BT /F2 10 Tf 0.08 0.11 0.18 rg 54 177 Td (College Exam System) Tj ET
-BT /F1 8.8 Tf 0.02 0.46 0.38 rg 438 177 Td (Full Stack) Tj ET
-BT /F1 9.1 Tf 0.20 0.24 0.32 rg 54 164 Td (Secure MERN based online examination system for college use. Includes student, faculty, and admin) Tj ET
-BT /F1 9.1 Tf 0.20 0.24 0.32 rg 54 152 Td (workflows, exam creation, submissions, evaluation, proctor snapshots, audit logging, OTP auth, login) Tj ET
-BT /F1 8.7 Tf 0.25 0.22 0.62 rg 54 140 Td (Tech: MongoDB, Express.js, React, Node.js, JWT, Tailwind CSS) Tj ET
-BT /F1 8.5 Tf 0.25 0.22 0.62 rg 54 128 Td (GitHub: https://github.com/USER-00001-IND/CollegeExamSystem.git) Tj ET
-BT /F2 10 Tf 0.08 0.11 0.18 rg 54 112 Td (Coursework Web Project) Tj ET
-BT /F1 8.8 Tf 0.02 0.46 0.38 rg 438 112 Td (Coursework) Tj ET
-BT /F1 9.1 Tf 0.20 0.24 0.32 rg 54 99 Td (Web project created using HTML, CSS, and JavaScript for Department of Computer Science coursework.) Tj ET
-BT /F1 8.7 Tf 0.25 0.22 0.62 rg 54 87 Td (Tech: HTML, CSS, JavaScript) Tj ET
-BT /F2 10 Tf 0.02 0.46 0.38 rg 54 51 Td (INTERESTS) Tj ET
-0.78 0.86 0.90 RG 0.75 w 54 45 m 558 45 l S
-BT /F1 9.4 Tf 0.18 0.22 0.31 rg 54 31 Td (- Programming, Machine Learning, Web Development, AI Research, Travel, Gaming) Tj ET
+BT /F2 20 Tf 0 0 0 rg 42 750 Td (Rajmohan Hazowary) Tj ET
+BT /F2 8.8 Tf 0.10 0.10 0.10 rg 42 733 Td (Computer Science Student | Machine Learning | Computer Vision | Full Stack Development) Tj ET
+BT /F1 8.1 Tf 0.10 0.10 0.10 rg 42 720 Td (Email: rjmhhzry77@gmail.com | Location: Goalpara, Assam, India) Tj ET
+BT /F1 8.1 Tf 0.10 0.10 0.10 rg 42 710 Td (GitHub: https://github.com/USER-00001-IND | Portfolio: https://rjmln.ddns.org) Tj ET
+0.45 0.45 0.45 RG 0.8 w 42 704 m 570 704 l S
+BT /F2 8.4 Tf 0 0 0 rg 42 691 Td (PROFILE) Tj ET
+0.74 0.74 0.74 RG 0.6 w 134 694 m 570 694 l S
+BT /F1 8.2 Tf 0.10 0.10 0.10 rg 42 680 Td (Computer Science undergraduate focused on Machine Learning, Computer Vision, Full Stack Development, and AI research.) Tj ET
+BT /F1 8.2 Tf 0.10 0.10 0.10 rg 42 669.5 Td (Experienced in building practical projects using Python, React, Node.js, MongoDB, TensorFlow/Keras, OpenCV, and modern) Tj ET
+BT /F1 8.2 Tf 0.10 0.10 0.10 rg 42 659 Td (development tools.) Tj ET
+BT /F2 8.4 Tf 0 0 0 rg 42 635.5 Td (TECHNICAL SKILLS) Tj ET
+0.74 0.74 0.74 RG 0.6 w 134 638.5 m 570 638.5 l S
+BT /F2 8.2 Tf 0.10 0.10 0.10 rg 42 624.5 Td (Programming:) Tj ET
+BT /F1 8.1 Tf 0.10 0.10 0.10 rg 134 624.5 Td (Python, JavaScript, C, C++) Tj ET
+BT /F2 8.2 Tf 0.10 0.10 0.10 rg 42 614.5 Td (Frontend:) Tj ET
+BT /F1 8.1 Tf 0.10 0.10 0.10 rg 134 614.5 Td (React, HTML, CSS, Tailwind CSS) Tj ET
+BT /F2 8.2 Tf 0.10 0.10 0.10 rg 42 604.5 Td (Backend:) Tj ET
+BT /F1 8.1 Tf 0.10 0.10 0.10 rg 134 604.5 Td (Node.js, Express.js, MongoDB) Tj ET
+BT /F2 8.2 Tf 0.10 0.10 0.10 rg 42 594.5 Td (Machine Learning:) Tj ET
+BT /F1 8.1 Tf 0.10 0.10 0.10 rg 134 594.5 Td (NumPy, Pandas, Scikit Learn, TensorFlow, Keras) Tj ET
+BT /F2 8.2 Tf 0.10 0.10 0.10 rg 42 584.5 Td (Computer Vision:) Tj ET
+BT /F1 8.1 Tf 0.10 0.10 0.10 rg 134 584.5 Td (OpenCV, Image Processing, Dataset Preparation) Tj ET
+BT /F2 8.2 Tf 0.10 0.10 0.10 rg 42 574.5 Td (Tools:) Tj ET
+BT /F1 8.1 Tf 0.10 0.10 0.10 rg 134 574.5 Td (Git, GitHub, VS Code, Jupyter Notebook, Google Colab) Tj ET
+BT /F2 8.4 Tf 0 0 0 rg 42 551.5 Td (PROJECTS) Tj ET
+0.74 0.74 0.74 RG 0.6 w 134 554.5 m 570 554.5 l S
+BT /F2 8.8 Tf 0.10 0.10 0.10 rg 42 540.5 Td (College Exam System) Tj ET
+BT /F1 7.8 Tf 0.25 0.25 0.25 rg 458 540.5 Td (Full Stack) Tj ET
+BT /F1 8 Tf 0.10 0.10 0.10 rg 42 530 Td (Developed a MERN based online examination platform supporting student, faculty, and admin workflows with JWT) Tj ET
+BT /F1 8 Tf 0.10 0.10 0.10 rg 42 520.5 Td (authentication, role based access control, online evaluation, OTP authentication, audit logging, and proctor) Tj ET
+BT /F1 7.8 Tf 0.10 0.10 0.10 rg 42 511 Td (Tech: MongoDB, Express.js, React, Node.js, JWT, Tailwind CSS) Tj ET
+BT /F1 7.4 Tf 0.10 0.10 0.10 rg 42 502 Td (GitHub: https://github.com/USER-00001-IND/CollegeExamSystem.git) Tj ET
+BT /F2 8.8 Tf 0.10 0.10 0.10 rg 42 491.5 Td (Employee Salary Prediction) Tj ET
+BT /F1 7.8 Tf 0.25 0.25 0.25 rg 458 491.5 Td (Machine Learning) Tj ET
+BT /F1 8 Tf 0.10 0.10 0.10 rg 42 481 Td (Built a machine learning regression project using Linear Regression, Decision Tree, and Random Forest with data) Tj ET
+BT /F1 8 Tf 0.10 0.10 0.10 rg 42 471.5 Td (cleaning, preprocessing, feature engineering, and model evaluation. Random Forest achieved R2 score of 0.714 and RMSE) Tj ET
+BT /F1 7.8 Tf 0.10 0.10 0.10 rg 42 462 Td (Tech: Python, Pandas, NumPy, Scikit Learn) Tj ET
+BT /F1 7.4 Tf 0.10 0.10 0.10 rg 42 453 Td (GitHub: https://github.com/USER-00001-IND/Employee-Salary-prediction-.git) Tj ET
+BT /F2 8.8 Tf 0.10 0.10 0.10 rg 42 442.5 Td (Assamese Number Recognition using ANN) Tj ET
+BT /F1 7.8 Tf 0.25 0.25 0.25 rg 458 442.5 Td (AI Research) Tj ET
+BT /F1 8 Tf 0.10 0.10 0.10 rg 42 432 Td (Built an ANN based image classification project for Assamese numerical character recognition with dataset preparation,) Tj ET
+BT /F1 8 Tf 0.10 0.10 0.10 rg 42 422.5 Td (model training, prediction, and evaluation.) Tj ET
+BT /F1 7.8 Tf 0.10 0.10 0.10 rg 42 413 Td (Tech: Python, TensorFlow, Keras, Neural Networks) Tj ET
+BT /F1 7.4 Tf 0.10 0.10 0.10 rg 42 404 Td (GitHub: https://github.com/USER-00001-IND/Assamese-Number-recognition-.git) Tj ET
+BT /F2 8.8 Tf 0.10 0.10 0.10 rg 42 393.5 Td (Portfolio Website) Tj ET
+BT /F1 7.8 Tf 0.25 0.25 0.25 rg 458 393.5 Td (Frontend) Tj ET
+BT /F1 8 Tf 0.10 0.10 0.10 rg 42 383 Td (Built a cinematic black and white developer portfolio with React, Vite, Tailwind CSS, Framer Motion, and modern UI) Tj ET
+BT /F1 7.8 Tf 0.10 0.10 0.10 rg 42 373.5 Td (Tech: React, Vite, Tailwind CSS, Framer Motion) Tj ET
+BT /F2 8.4 Tf 0 0 0 rg 42 349.5 Td (EXPERIENCE) Tj ET
+0.74 0.74 0.74 RG 0.6 w 134 352.5 m 570 352.5 l S
+BT /F2 8.8 Tf 0.10 0.10 0.10 rg 42 338.5 Td (Summer Internship in Computer Vision) Tj ET
+BT /F1 7.8 Tf 0.25 0.25 0.25 rg 458 338.5 Td (2026 to 2027) Tj ET
+BT /F1 7.9 Tf 0.10 0.10 0.10 rg 42 328 Td (Department of Computer Science, Gauhati University | Computer Vision and Artificial Intelligence) Tj ET
+BT /F1 7.8 Tf 0.10 0.10 0.10 rg 50 318.5 Td (- Computer Vision and AI) Tj ET
+BT /F1 7.8 Tf 0.10 0.10 0.10 rg 50 308.5 Td (- Image Processing) Tj ET
+BT /F2 8.8 Tf 0.10 0.10 0.10 rg 42 297.5 Td (Winter Internship in Machine Learning and ANN) Tj ET
+BT /F1 7.8 Tf 0.25 0.25 0.25 rg 458 297.5 Td (2025 to 2026) Tj ET
+BT /F1 7.9 Tf 0.10 0.10 0.10 rg 42 287 Td (Department of Computer Science, Gauhati University | Machine Learning) Tj ET
+BT /F1 7.8 Tf 0.10 0.10 0.10 rg 50 277.5 Td (- Artificial Neural Networks) Tj ET
+BT /F1 7.8 Tf 0.10 0.10 0.10 rg 50 267.5 Td (- Machine Learning) Tj ET
+BT /F2 8.4 Tf 0 0 0 rg 42 243.5 Td (HACKATHON) Tj ET
+0.74 0.74 0.74 RG 0.6 w 134 246.5 m 570 246.5 l S
+BT /F2 8.8 Tf 0.10 0.10 0.10 rg 42 232.5 Td (DevFusion 2.0 Developers Hackathon) Tj ET
+BT /F1 7.8 Tf 0.25 0.25 0.25 rg 458 232.5 Td (Enginow) Tj ET
+BT /F1 7.9 Tf 0.10 0.10 0.10 rg 42 222 Td (Team: amitray.school | Role: Razorpay Integration and UI Design) Tj ET
+BT /F1 7.8 Tf 0.10 0.10 0.10 rg 50 212.5 Td (- Participated in DevFusion 2.0 Developers Hackathon.) Tj ET
+BT /F1 7.8 Tf 0.10 0.10 0.10 rg 50 202.5 Td (- Contributed to secure payment workflow using Razorpay.) Tj ET
+BT /F1 7.8 Tf 0.10 0.10 0.10 rg 50 192.5 Td (- Worked on responsive UI design and user experience improvements.) Tj ET
+BT /F2 8.4 Tf 0 0 0 rg 42 169.5 Td (EDUCATION) Tj ET
+0.74 0.74 0.74 RG 0.6 w 134 172.5 m 570 172.5 l S
+BT /F2 8.8 Tf 0.10 0.10 0.10 rg 42 158.5 Td (Bachelor of Science in Computer Science) Tj ET
+BT /F1 7.8 Tf 0.25 0.25 0.25 rg 458 158.5 Td (2024 to 2027) Tj ET
+BT /F1 7.9 Tf 0.10 0.10 0.10 rg 42 148 Td (Pandit Deendayal Upadhyaya Adarsha Mahavidyalaya, Amjonga | Pursuing) Tj ET
+BT /F2 8.8 Tf 0.10 0.10 0.10 rg 42 137.5 Td (Higher Secondary) Tj ET
+BT /F1 7.8 Tf 0.25 0.25 0.25 rg 458 137.5 Td (2021 to 2024) Tj ET
+BT /F1 7.9 Tf 0.10 0.10 0.10 rg 42 127 Td (Pandit Deendayal Upadhyaya Adarsha Mahavidyalaya, Amjonga | Completed) Tj ET
+BT /F2 8.4 Tf 0 0 0 rg 42 103.5 Td (CERTIFICATIONS) Tj ET
+0.74 0.74 0.74 RG 0.6 w 134 106.5 m 570 106.5 l S
+BT /F1 7.8 Tf 0.10 0.10 0.10 rg 42 92.5 Td (DevFusion 2.0 Participation Certificate, Enginow | Summer Internship Certificate, Department of Computer Science,) Tj ET
+BT /F1 7.8 Tf 0.10 0.10 0.10 rg 42 83 Td (Gauhati University | Winter Internship Certificate, Department of Computer Science, Gauhati University) Tj ET
 endstream
 endobj
 xref
@@ -90,5 +112,5 @@ xref
 trailer
 << /Root 1 0 R /Size 7 >>
 startxref
-5568
+7759
 %%EOF
