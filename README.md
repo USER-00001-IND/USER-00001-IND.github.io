@@ -14,7 +14,7 @@ Computer Science student focused on Machine Learning, Computer Vision, Full Stac
 
 | Platform | Link |
 | --- | --- |
-| Website | <https://rjmln.ddpns.org> |
+| Website | <https://rjmhn.dpdns.org> |
 | GitHub Pages | <https://user-00001-ind.github.io> |
 
 ---
