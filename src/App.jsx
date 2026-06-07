@@ -21,7 +21,6 @@ const Timeline = lazy(() => import("./sections/Timeline.jsx"));
 const Achievements = lazy(() => import("./sections/Achievements.jsx"));
 const AIAssistant = lazy(() => import("./sections/AIAssistant.jsx"));
 const Resume = lazy(() => import("./sections/Resume.jsx"));
-const CoreTechnologies = lazy(() => import("./sections/CoreTechnologies.jsx"));
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem("theme") !== "light");
@@ -79,11 +78,6 @@ export default function App() {
           <ErrorBoundary>
             <Suspense fallback={<ResumeSkeleton />}>
               <Resume />
-            </Suspense>
-          </ErrorBoundary>
-          <ErrorBoundary>
-            <Suspense fallback={<ResumeSkeleton />}>
-              <CoreTechnologies />
             </Suspense>
           </ErrorBoundary>
           <Contact />

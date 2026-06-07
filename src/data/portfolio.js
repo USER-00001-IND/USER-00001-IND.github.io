@@ -312,22 +312,3 @@ export const aiAssistantProfile = {
   researchInterests: ["AI based visual data analysis", "Regional language and digit recognition", "Applied ML for real-world workflows"],
   futureGoals: ["Build deployable AI products", "Strengthen software engineering fundamentals", "Contribute to research oriented AI systems"],
 };
-
-export const coreResumeKeywords = {
-  title: "Core Resume Keywords",
-  items: [
-    "Python",
-    "JavaScript",
-    "React",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "Machine Learning",
-    "Computer Vision",
-    "TensorFlow",
-    "Keras",
-    "OpenCV",
-    "Git",
-    "GitHub",
-  ],
-};

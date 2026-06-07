@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Github, Menu, Moon, Search, Sun, X } from "lucide-react";
 import { navItems, profile } from "../data/portfolio.js";
+import BrandLogo from "./BrandLogo.jsx";
 
 export default function Navbar({ darkMode, onToggleDark }) {
   const [open, setOpen] = useState(false);
@@ -45,8 +46,8 @@ export default function Navbar({ darkMode, onToggleDark }) {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#050812]/88 shadow-[0_8px_34px_rgba(0,0,0,0.28)] backdrop-blur-xl">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <a href="#home" className="font-mono text-sm font-semibold tracking-wide text-white">
-          <span className="text-cyan-300">rajmohan</span><span className="text-emerald-300">.dev</span>
+        <a href="#home" aria-label="rajmohan.dev home" className="min-w-0">
+          <BrandLogo />
         </a>
 
         <div className="hidden items-center gap-1 md:flex">
